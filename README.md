@@ -71,9 +71,19 @@ print(lista["nome"], lista["sobrenome"])
 
 ISSO É MUITO UTILIZADO PRINCIPALMENTE QUANDO TRABALHADO COM ANÁLISE DE DADOS, POIS QUANDO VOCÊ ESTÁ TRABALHANDO COM ANÁLISE DE DADOS VOCê TEM O PROCESSO DE ETL(EXTRACT, TRANSFORM, LOAD), VOCê EXTRAI OS DADOS DE ALGUM LUGAR/BANCO DE DADOS/ARMAZÉM DE DADOS, TRANFORMA ESSA INFORMAÇÃO E CARREGA UMA NOVA ESTRUTURA PARA PODER FAZER A ANÁLISE. E O PROCESSO DE TRANFORMAÇÃO DO ETL UTILIZA ESSE TIPO DE ESTRUTURA, POIS DIFICILMENTE VOCê CONSEGUIRÁ PUXAR UMA INFORMAÇÃO E TRABALHAR COM ÍNDICES NUMÉRICOS, COMO SÃO MUITOS ÍNDICES, É MAIS COMPLICADO MEMORIZAR ELES.
 
+---
 
+### CONCEITO DE CONJUNTOS
 
+Conjunto é uma estrutura padrão que você aplica em vetores ou matrizes (ou seja, vocÊ aplica em uma lista, tupla ou dicionário)
 
+E lembrando que o dicionário é apenas uma forma diferenciada de você trabalhar com conceito de lista ou tupla, não é um subtipo, mas sim uma forma de trabalho, assim como o conjunto.
+
+COMO ACHAR O PONTO DE INTERCECÇÃO ENTRE ESSES DOIS ELEMNTOS/ESSAS DUAS LISTAS:
+
+a 
+
+02:00
 
 
 
