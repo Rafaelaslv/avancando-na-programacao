@@ -81,9 +81,33 @@ E lembrando que o dicionário é apenas uma forma diferenciada de você trabalha
 
 COMO ACHAR O PONTO DE INTERCECÇÃO ENTRE ESSES DOIS ELEMNTOS/ESSAS DUAS LISTAS:
 
-a 
+PARA APONTAR QUE ESTAMOS TRABALHANDO COM CONJUNTO, USAMOS A PALAVRA RESERVADA SET.
 
-02:00
+a = {1,3,5}
+b = {2,4,6}
+
+print(set(a.intersection(b)))
+
+O PROGRAMA NOS RETORNARÁ set() POIS NÃO EXISTEM ELEMNETOS QUE ESTÃO PRESENTES NA INTERSECÇÃO ENTRE O A E O B.
+
+Um Diagrama de Venn usa círculos sobrepostos ou outras formas para ilustrar as relações lógicas entre dois ou mais conjuntos de itens. Muitas vezes, eles servem para organizar graficamente as coisas, destacando como os itens são semelhantes e diferentes.
+
+Intercecção é o espaço que está presente tanto no conjunto A quanto no conjunto B.
+
+EXISTEM OUTRAS FOPRMAS DE TRABALHAR COM DIAGRAMA DE VENN:
+
+VERIFICANDO APENAS OS ITENS QUE ESTÃO PRESENTES NO CONJUNTO A.
+
+OU APENAS NO CONJUNTO B.
+
+OU OS ITENS PRESENTES NO CONJUNTO A, B E QUE NÃO ESTÃO PRESENTES NOPS DOIS AO MESMO TEMPO (A INTERCECÇÃO FICA DE FORA).
+
+print(set(a.difference(b)))
+print(set(a.symmetric_difference(b))) PERTENCE SÓ A UM DOS SUBCONJUNTO
+print(b.issubset(a))
+
+---
+
 
 
 
