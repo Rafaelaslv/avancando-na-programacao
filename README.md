@@ -108,7 +108,7 @@ print(b.issubset(a))
 
 ---
 
-
+### TUPLAS E CONJUNTOS EM CASOS REAIS
 
 
 
