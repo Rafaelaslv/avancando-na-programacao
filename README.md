@@ -1,12 +1,20 @@
 ### AVANÇANDO NA PROGRAMAÇÃO
 
+A ideia deste módulo é justamente essa: mostrar a você como é possível armazenar mais de um valor em uma mesma estrutura (que agora, perde o nome de variável). Essas estruturas pertencem a um grupo computacional conhecido como estruturas de dados.
+
+Essas estruturas de dados são componentes computacionais que manipulam os dados e realizam operações entre a memória e o processador. Existem alguns tipos de estruturas de dados, mas aqui trataremos especificamente da estrutura conhecida como “vetor” e sua subcategoria, a matriz.
+
+É importante ressaltar o seguinte: nenhuma linguagem de alto nível possui, de fato, vetores. O termo “alto nível” refere-se à distância entre o código digitado pelo programador e o código de máquina interpretado pelo computador (código Assembly - que ainda é legível a humanos, mas muito mais próximo de uma leitura computacional). Logo, as linguagens são basicamente divididas entre alto nível ou baixo nível e o código que todo programador escreve é, inevitavelmente, de alto nível.
+
+Os vetores, por exemplo, são estruturas de dados que lidam diretamente com endereço de memória, realizando alocação de dados em endereços específicos. Algumas linguagens, como C, simulam um acesso direto à memória, mas ainda existe uma camada intermediária entre o código digitado e a memória física.
+
 ---
 
 ### CONCEITO DE TUPLAS
 
 Dentro do Python, não utilizamos as palavras vetor e matriz, mas sim de alguns termos, como lista.
 
-Lista é um dos modleos que utilizamos na hora de fazer vetorização ou matrizes dentro da programação em Python.
+Lista é um dos modelos que utilizamos na hora de fazer vetorização ou matrizes dentro da programação em Python.
 
 O segundo modelo que veremos é o conceito de tuplas.
 
