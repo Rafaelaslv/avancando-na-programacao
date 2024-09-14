@@ -96,6 +96,25 @@ E podemos fazer buscas em um banco de dados, como por exemplo se existir etermin
 
 ---
 
+### LISTAS
+
+Seguindo a mesma lógica das tuplas, temos as listas. Elas seguem o princípio de “pilhas” em que o item adicionado por último é o primeiro a ser recuperado, mas nada impede que elas também sejam utilizadas como filas, em que o último item adicionado é também o último a ser retirado (Python.org).
+
+Basicamente existem duas diferenças entre as listas e as tuplas:
+
+Tuplas são imutáveis, listas não
+Tuplas utilizam parênteses, listas utilizam colchetes
+
+a = [1,2,3]
+
+ALGUMAS MANEIRAS DE MANIPULAR LISTAS:
+
+a.append(4)
+a.remove(2)
+a.insert(0, 50)
+
+---
+
 ### CONCEITO DE DICIONÁRIOS
 
 DICIONÁRIO: É UMA LISTA DE VALORES, MAS AO INVÉS DE VOCÊ TER ÍNDICES OCULTOS E NÚMERICOS, VOCÊ TERÁ INDICES QUE SÃO MUITO MAIS AMIGÁVEIS DE FORMA TEXTUAL.
