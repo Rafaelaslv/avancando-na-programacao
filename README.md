@@ -8,6 +8,16 @@ Essas estruturas de dados são componentes computacionais que manipulam os dados
 
 Os vetores, por exemplo, são estruturas de dados que lidam diretamente com endereço de memória, realizando alocação de dados em endereços específicos. Algumas linguagens, como C, simulam um acesso direto à memória, mas ainda existe uma camada intermediária entre o código digitado e a memória física.
 
+Desta forma, pode-se afirmar corretamente, considerando que os vetores têm acesso direto ao hardware da máquina (regidos pelo Kernel do Sistema Operacional), que nenhuma linguagem de alto nível trabalha, efetivamente, com vetores ou matrizes, mas sim, com objetos que simulam um vetor ou matriz.
+
+Todos esses tipos de objeto que simulam um vetor ou uma matriz, possuem algumas características:
+
+Armazenam um ou mais valores;
+Os valores podem ser numéricos ou textuais (caracteres);
+Cada valor é armazenado em um índice numérico sequencial;
+Os índices sempre inicial na posição 0;
+As listas em Python são heterogêneas, ou seja, podem conter elementos de diferentes tipos.
+
 ---
 
 ### CONCEITO DE TUPLAS
