@@ -22,6 +22,18 @@ As listas em Python são heterogêneas, ou seja, podem conter elementos de difer
 
 ### CONCEITO DE TUPLAS
 
+Uma tupla é representada em Python como uma “sequência de valores separados por vírgulas” (Python.org) por um conteúdo envolto em parênteses.
+
+a = (1,2,3)
+
+Neste exemplo já não chamaremos o “a” de variável, mas sim, de tupla, uma vez que ela tem vários valores atrelados.
+
+O valor inserido na tupla pode ser resgatado apontando-se o endereço do índice 
+
+a = (1,2,3)
+print(a[0])
+
+Para facilitar, você pode sempre pensar que o índice desejado sempre terá a grandeza n-1 em relação à quantidade de elementos em sua tupla, por exemplo, se você quiser resgatar o terceiro elemento de uma tupla, o índice será a posição n-1, ou seja, 3-1 (posição 2).
 Dentro do Python, não utilizamos as palavras vetor e matriz, mas sim de alguns termos, como lista.
 
 Lista é um dos modelos que utilizamos na hora de fazer vetorização ou matrizes dentro da programação em Python.
