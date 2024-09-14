@@ -36,6 +36,16 @@ print(a[0])
 Para facilitar, você pode sempre pensar que o índice desejado sempre terá a grandeza n-1 em relação à quantidade de elementos em sua tupla, por exemplo, se você quiser resgatar o terceiro elemento de uma tupla, o índice será a posição n-1, ou seja, 3-1 (posição 2).
 Dentro do Python, não utilizamos as palavras vetor e matriz, mas sim de alguns termos, como lista.
 
+É possível trabalhar com alguns comandos específicos do Python para fazer uma varredura nas estruturas de dados. Neste caso, utilizaremos um comando que irá “varrer” a tupla em busca de um valor específico:
+
+tupla = (1,2,3,4,5)
+if 8 in tupla:
+    print("existe)
+else:
+    print("não existe")
+
+Neste exemplo, utilizamos uma condicional (if) para verificar se o valor 18 estava presente dentro da tupla nomeada como “tupla”. Como o valor não está presente, o bloco de execução que será ativado será aquele disposto na linha 316, o else.
+
 Lista é um dos modelos que utilizamos na hora de fazer vetorização ou matrizes dentro da programação em Python.
 
 O segundo modelo que veremos é o conceito de tuplas.
