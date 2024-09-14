@@ -134,7 +134,23 @@ ISSO É MUITO UTILIZADO PRINCIPALMENTE QUANDO TRABALHADO COM ANÁLISE DE DADOS, 
 
 ### CONCEITO DE CONJUNTOS
 
-Conjunto é uma estrutura padrão que você aplica em vetores ou matrizes (ou seja, vocÊ aplica em uma lista, tupla ou dicionário)
+A lógica de conjuntos é a mesma que aplicamos às listas ou tuplas mas com uma característica peculiar: ela não possui elementos repetidos. Seu caractere de marcação é um par de chaves. De acordo com a documentação oficial do Python, os conjuntos são
+
+“uma coleção desordenada de elementos, sem elementos repetidos. Usos comuns para conjuntos incluem a verificação eficiente da existência de objetos e a eliminação de itens duplicados. Conjuntos também suportam operações matemáticas como união, interseção, diferença e diferença simétrica.” (Python.org).
+
+a = {1,2,3,3,3,3,4,5,5,5,6,1}
+print(a)
+
+{1,2,3,4,5,6}
+
+Uma série de recursos também é possível de ser realizada com os conjuntos, como por exemplo, descobrir uma intersecção (elementos comuns) entre conjuntos, elementos destoantes, elementos presentes apenas em um dos conjuntos, etc. Na Figura 40 é possível como funcionaria essa lógica aplicando o recurso de intersecção, ou seja, a descoberta apenas de elementos comuns a dois conjuntos. O resultado impresso em tela seria: 1,2,3
+
+a = {1,2,3,4,5,1,1,2,3,2,2}
+b = {1,2,3}
+c = a.intersection(b)
+print(c)
+
+Conjunto é uma estrutura padrão que você aplica em vetores ou matrizes (ou seja, você aplica em uma lista, tupla ou dicionário)
 
 E lembrando que o dicionário é apenas uma forma diferenciada de você trabalhar com conceito de lista ou tupla, não é um subtipo, mas sim uma forma de trabalho, assim como o conjunto.
 
