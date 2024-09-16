@@ -202,6 +202,10 @@ Resumindo, temos algumas estruturas padrões, que conseguimos utilizar quando va
 
 ---
 
+### TESTANDO A EFICIÊNCIA DOS CÓDIGOS
+
+
+
 
 
 
