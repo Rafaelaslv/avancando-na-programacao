@@ -185,6 +185,26 @@ print(b.issubset(a))
 
 ### TUPLAS E CONJUNTOS EM CASOS REAIS
 
+Vou criar uma lista (lista = []), um laço de repetição (for), uma variável de controle (a), um intervalo de 5 posições (range(5)), vou dizer que a minha lista vai adicionar algum elemento no final da sua estrutura e esse elemento será do tipo input permitindo que a pessoa digite um nome e iremos printar a lista.
+
+lista = []
+
+for a in range(5):
+    lista.append(input("Nome: ")
+
+print(lista)
+
+---
+
+### OTIMIZAÇÃO DE TUPLAS
+
+Resumindo, temos algumas estruturas padrões, que conseguimos utilizar quando vamos fazer vetor ou matriz, utilizando listas ou tuplas, facilitando a estrutura através de dicionários, e também conseguindo fazer algumas operações extras utilizando conjuntos.
+
+---
+
+
+
+
 
 
 
