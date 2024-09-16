@@ -117,6 +117,25 @@ a.insert(0, 50)
 
 ### CONCEITO DE DICIONÁRIOS
 
+Um dicionário se comporta da mesma forma que uma lista ou tupla; na verdade, o que os difere é mais uma questão conceitual e de usabilidade, uma vez que o dicionário de dados vai nomear cada índice, de forma que seja mais fácil memorizar seus respectivos valores.
+
+Imagine uma lista com os dados do cadastro de um usuário com as informações mais ou menos desta forma:
+
+cadastro = [“João”, “Silva”, 34, “45454545”, “33333333333”, “Alameda dos Golfinhos”, “SP”, 12122222”]
+
+Convenhamos que memorizar em qual índice está alocado o CPF do usuário é algo um tanto complicado, afinal, são tantas informações que é até normal se confundir em meio aos dados. Não seria bem mais útil se cada campo, ao invés de um índice, tivesse como referência uma palavra que o identificasse? Pois é, é justamente esse o conceito de dicionários.
+
+Com os dicionários de dados, uma estrutura do tipo “vetor” (note as aspas) passa a ter nomes ao invés de índices, facilitando a sua manipulação por meio da memorização. Isso é demonstrado em detalhes na Figura 42 (desconsidere a forma como o código foi escrito; esta apresentação foi apenas para que a linha não ficasse muito extensa).
+
+Observe que, na linha 371, ao ser requerido o valor “cpf” (inicialmente apontado na linha 368), o resultado “33333333333” foi impresso na tela sem que houvesse a necessidade de se utilizar um índice numérico.
+
+cadastro{
+         "nome" : "Rafaela",
+         "cpf" : "43554186856",
+         "idade" : 24
+         }
+print(cadastro["cpf"])
+
 DICIONÁRIO: É UMA LISTA DE VALORES, MAS AO INVÉS DE VOCÊ TER ÍNDICES OCULTOS E NÚMERICOS, VOCÊ TERÁ INDICES QUE SÃO MUITO MAIS AMIGÁVEIS DE FORMA TEXTUAL.
 
 SE EU TIVER 50 ITENS NA MINHA LISTA, NÃO LEMBRAREI DE CABEEÇA QUAL O ÍNDICE 47.
